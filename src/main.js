@@ -1,6 +1,8 @@
 const express = require("express");
-const { connect } = require("http2");
 const app = express();
+
+app.use(express.json());
+
 
 const mongoose = require("mongoose");
 
